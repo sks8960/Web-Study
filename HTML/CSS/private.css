@@ -1,0 +1,49 @@
+body{background-color: mistyrose;} /* body, h3등 지정해주는 것이 셀렉터 */
+h3{color: purple; text-align: center;} /* 가운데 정렬 */
+hr{border: 5px solid yellowgreen; text-indent: 1em;} /* 1글자 들여쓰기 */
+span{color: blue; font-size:20px; text-decoration: line-through;} /* 중간 줄 */
+p{
+    color: red;
+    font-size: 15px;
+}
+
+ul strong{
+    color: dodgerblue;
+}
+div > strong{
+    background-color: yellow;
+}
+
+#list {
+    background-color: yellow;
+} /* id값이 list인 모든 셀렉터에 적용 */
+
+.warning{
+    background-color: red;
+} /* class값이 warning인 모든거에 적용 */
+
+a:visited{
+    color: green;
+}
+
+li:hover{
+    background : yellow;
+} /* 가상 클래스 셀렉터. 어떤 상황이 발생하였을 때만 적용하도록 만든 것. 클론 사이에 공간을 두면 안됨 EX) li : hover */
+
+/* 셀렉터 종류 */
+/* 마우스 : hover, active */
+/* 폼 요소 : focus */
+/* 링크 : link, visited */
+/* 블록 : first-letter, first-line */
+/* 구조 : nth-child(even), nth-child(1) */
+/* hover : 마우스 커서가 올라오면 발생 */
+/* active : 마우스로 누르고 있는 상황에서 스타일 적용 */
+/* visited : 방문한 뒤 수행 */
+/* link : 방문하지 않은 링크에 적용 */
+
+
+/* 자식태그는 부모 태그의 속성을 그대로 상속 받음 */
+
+/* 우선순위 : style 속성 > <style> > asd.css > 브라우저 디폴트 스타일 */
+
+/* 폰트 스타일 : font-style, 폰트 굵기 : font-weight, 단축 크기 : font-size */

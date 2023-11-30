@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>체크박스, 라디오버튼</title>
+    </head>
+    <body>
+        <h3>체크박스</h3>
+        <hr>
+        <form>
+            짜장면 <input type="checkbox" value="1" checked>
+            짬뽕 <input type="checkbox" value="2">
+            탕수육 <input type="checkbox" value="3">
+        </form>
+        <h3>라디오버튼</h3>
+        <hr>
+        <form>
+            <label>
+                짜장면<input type="radio" name="china" value="1">
+            </label>
+            <label>
+                짬뽕<input type="radio" name="china" value="2">
+            </label>
+            <label>
+                탕수육<input type="radio" name="china" value="3">
+            </label>
+        </form>
+        <h3>콤보박스</h3>
+        <hr>
+        <form>
+            <select name="china">
+                <option value="1">짜장면</option>
+                <option value="2">짬뽕</option>
+                <option value="3">탕수육</option>
+            </select>
+        </form>
+        <h3>label태그로 로그인폼 제작</h3>
+        <hr>
+        <form name="fo" method="get">
+            <label>사용자 ID : <input type="text" size="15" value="" placeholder="abc@naver.com"></label><br>
+            <label for="pass">비밀 번호 : </label>
+            <input type="pass" type="password" size="15" value="">
+            <input type="submit" value="완료">
+        </form>
+    </body>
+</html>
+
+<!-- checked는 기본으로 체크되어 있는상태로 하는 것 -->
+<!-- 체크박스는 복수 선택 가능, 라디오버튼은 복수 선택 불가능 -->
+<!-- 콤보박스는 드랍다운 옵션에서 1개 선택 -->
+<!-- datalist는 옵션 리스트에서 선택하거나 입력창에 직접 입력하여 선택 가능하지만 select는 옵션리스트에서만 선택 가능 -->
+<!-- label태그에서 사용자 ID와 같은것을 캡션이라고 부른다. 캡션을 클릭해도 선택되게 구현 가능 -->
+<!-- -->
