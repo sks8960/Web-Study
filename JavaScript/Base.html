@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Script 태그에 자바스크립트 작성</title>
+        <script>
+            function over(obj){
+                obj.src="../Image/lion.jpg"
+            }
+            function out(obj){
+                obj.src="../Image/tiger.jpg"
+            }
+            // parseInt(매개변수) : 문자열을 숫자로 변환
+            // eval(매개변수) : 수식이나 문장을 문자열 형태로 전달받아 실행한 후 결과를 리턴
+            // isNaN(매개변수) : 매개 변수의 값이 NaN인지 비교하여 맞으면 true를 리턴
+        </script>
+    </head>
+    <body>
+        <h3>마우스를 올려 보세요</h3>
+        <hr>
+        <img src="../Image/tiger.jpg" alt="이미지" onmouseover="over(this)" onmouseout="out(this)">
+    </body>
+</html>
+

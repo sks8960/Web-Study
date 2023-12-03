@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>while문으로 0~n까지 합 구하기</title>
+    </head>
+    <body>
+        <h3>0~n까지의 합</h3>
+        <hr>
+        <script>
+            var n = prompt("0보다 큰 값을 입력하세요 : ", 0);
+            n = parseInt(n);
+
+            var i = 1, sum = 0;
+            while (i<=n){
+                sum += i;
+                i++
+            }
+            alert(sum);
+            document.write("0에서" + n + "까지 합은 " + sum);
+        </script>
+    </body>
+</html>
